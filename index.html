@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $("#show-popup1").click(function(){
+        $("#popup1").show();
+      });
+      $("#hide-popup1").click(function(){
+        $("#popup1").hide();
+      });
+    });
+
+    $(document).ready(function(){
+      $("#show-popup2").click(function(){
+        $("#popup2").show();
+      });
+      $("#hide-popup2").click(function(){
+        $("#popup2").hide();
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="popup1" style="display:none">
+    <div id="popup-content1">
+      <p>This is a pop-up!</p>
+      <div style="position: absolute; top: 0; right: 0;">
+        <button id="hide-popup1">X</button>
+      </div>
+    </div>
+  </div>
+  <button id="show-popup1">Show Pop-up</button>
+
+  <div id="popup2" style="display:none">
+    <div id="popup-content2">
+      <p>This is a pop-up!</p>
+      <div style="position: absolute; top: 0; right: 0;">
+        <button id="hide-popup2">X</button>
+      </div>
+    </div>
+  </div>
+  <button id="show-popup2">Show Pop-up2</button>
+</body>
+</html>

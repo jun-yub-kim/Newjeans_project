@@ -1,0 +1,60 @@
+#popup1 {
+    position: absolute;
+    top: 10%;
+    left: 50;
+    width: 30%;
+    height: 70%;
+    background-color: gray;
+    /*background-color: rgba(0,0,0,0);*/
+  }
+  
+  #popup-content1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    text-align: center;
+  }
+
+  #close-btn1 {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+  }
+
+  #popup2 {
+    position: absolute;
+    top: 20%;
+    left: 50;
+    width: 30%;
+    height: 70%;
+    background-color: gray;
+    /*background-color: rgba(0,0,0,0);*/
+  }
+  
+  #popup-content2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+    text-align: center;
+  }
+
+  #close-btn2 {
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+  }
+  
+  body {
+    background-color: rgb(150, 106, 106);
+  }
+  
