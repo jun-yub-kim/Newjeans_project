@@ -6,9 +6,9 @@
     height: 70%;
     background-color: gray;
     /*background-color: rgba(0,0,0,0);*/
-  }
+}
   
-  #popup-content1 {
+#popup-content1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,25 +18,26 @@
     height: 90%;
     padding: 5%;
     text-align: center;
-  }
+    <img src="image-button.png" alt="Image Button">
+}
 
-  #close-btn1 {
+#hide-popup1 {
     padding: 10px;
     background-color: transparent;
     border: none;
-  }
+}
 
-  #popup2 {
+#popup2 {
     position: absolute;
     top: 20%;
-    left: 50;
+    left: 10%;
     width: 30%;
     height: 70%;
     background-color: gray;
     /*background-color: rgba(0,0,0,0);*/
-  }
+}
   
-  #popup-content2 {
+#popup-content2 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -46,15 +47,23 @@
     height: 90%;
     padding: 5%;
     text-align: center;
-  }
+}
 
-  #close-btn2 {
+#hide-popup2 {
     padding: 10px;
     background-color: transparent;
     border: none;
-  }
-  
-  body {
+}
+
+body {
     background-color: rgb(150, 106, 106);
-  }
+}
   
+button { /*버튼 배경 투명으로 바꿔주는 구문*/
+    border: none;
+    background-color: transparent;
+}
+
+button img { /*버튼 이미지에 마우스 커서 대면 손으로 바꿔주는 구문*/
+    cursor: pointer;
+}
