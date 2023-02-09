@@ -1,7 +1,9 @@
 #popup1 {
     position: absolute;
     top: 10%;
-    left: 122px;
+    left: 70px;    
+    min-width: 300px;
+    max-width: 450px;
     width: 40%;
     height: 75%;
     background-color: gray;
@@ -10,7 +12,7 @@
   
 #popup-content1 {
     position: absolute;
-    top: 55%;
+    top: 54%;
     left: 50%;
     min-width: 300px;
     max-width: 450px;
@@ -26,6 +28,11 @@
     overflow: auto;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+.line_spacing {
+  font-size: 12px;
+  line-height: 10%;
 }
 
 #hide-popup1 {
