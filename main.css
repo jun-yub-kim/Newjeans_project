@@ -71,7 +71,7 @@ button { /*버튼 배경 투명으로 바꿔주는 구문*/
 button img { /*버튼 이미지에 마우스 커서 대면 손으로 바꿔주는 구문*/
     cursor: pointer;
 }
-/*
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -115,7 +115,7 @@ button img { /*버튼 이미지에 마우스 커서 대면 손으로 바꿔주�
 }
 */
 
-/*
+
 .scroll-image {
     display:flex;
     flex-wrap:wrap;
@@ -123,8 +123,9 @@ button img { /*버튼 이미지에 마우스 커서 대면 손으로 바꿔주�
     margin:30px 0;
 }
 .scroll-image img {
-    width:calc(33.333% - 10px);
-    margin:0 15px 15px 0;
+  width:calc(33.333%);
+    /*width:calc(33.333% - 10px);
+    margin:0 15px 15px 0;*/
 }
 .scroll-image img:nth-of-type(3n),
 .scroll-image img:last-child {
@@ -158,5 +159,5 @@ button img { /*버튼 이미지에 마우스 커서 대면 손으로 바꿔주�
     flex:0 0 auto;
     align-self:stretch;
     width:7%;
-  }*/
+  }
 }
