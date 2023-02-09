@@ -12,10 +12,11 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    min-width: 330px;
+    min-width: 300px;
+    max-width: 450px;
     transform: translate(-50%,-50%);
     background-color: white;
-    width: 90%;
+    width: 100%;
     height: 90%;
     padding: 5%;
     text-align: center;
@@ -102,7 +103,7 @@ button img { /*버튼 이미지에 마우스 커서 대면 손으로 바꿔주�
 }
 @media screen and (max-width:640px){
   .grid-image img {
-    width:calc(50% - 15px);
+    width:calc(300 - 15px);
   }
 }
 @media screen and (max-width:480px){
@@ -131,12 +132,14 @@ button img { /*버튼 이미지에 마우스 커서 대면 손으로 바꿔주�
 .scroll-image img:last-child {
     margin-right:0;
 }
+/*
 @media screen and (max-width:480px){
   .scroll-image {
     flex-wrap:nowrap;
     justify-content:flex-start;
     position:relative;
     width:114%;
+    min-width: 470;
     left:-7%;
     padding:0 7%;
     overflow-y:hidden;
@@ -160,4 +163,4 @@ button img { /*버튼 이미지에 마우스 커서 대면 손으로 바꿔주�
     align-self:stretch;
     width:7%;
   }
-}
+}scroll
