@@ -1,7 +1,7 @@
 #popup1 {
     position: absolute;
     top: 10%;
-    left: 50;
+    left: 122px;
     width: 30%;
     height: 70%;
     background-color: gray;
@@ -12,13 +12,16 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    min-width: 330px;
     transform: translate(-50%,-50%);
     background-color: white;
     width: 90%;
     height: 90%;
     padding: 5%;
     text-align: center;
-    <img src="image-button.png" alt="Image Button">
+    overflow: auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 #hide-popup1 {
@@ -55,6 +58,7 @@
     border: none;
 }
 
+
 body {
     background-color: rgb(150, 106, 106);
 }
@@ -66,4 +70,93 @@ button { /*버튼 배경 투명으로 바꿔주는 구문*/
 
 button img { /*버튼 이미지에 마우스 커서 대면 손으로 바꿔주는 구문*/
     cursor: pointer;
+}
+/*
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 10px;
+  }
+  
+  .grid-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+.grid-image {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-start;
+    margin:30px 0;
+}
+.grid-image img {
+    width:calc(15% - 10px);
+    margin:0 15px 15px 0;
+}
+.grid-image img:nth-of-type(3n),
+.grid-image img:last-child {
+    margin-right:0;
+}
+@media screen and (max-width:640px){
+  .grid-image img {
+    width:calc(50% - 15px);
+  }
+}
+@media screen and (max-width:480px){
+  .grid-image img:nth-of-type(2n) {
+    margin-right:0;
+  }
+  .grid-image img:nth-of-type(3n) {
+    margin-right:15px;
+  }
+}
+*/
+
+/*
+.scroll-image {
+    display:flex;
+    flex-wrap:wrap;
+    align-items:flex-start;
+    margin:30px 0;
+}
+.scroll-image img {
+    width:calc(33.333% - 10px);
+    margin:0 15px 15px 0;
+}
+.scroll-image img:nth-of-type(3n),
+.scroll-image img:last-child {
+    margin-right:0;
+}
+@media screen and (max-width:480px){
+  .scroll-image {
+    flex-wrap:nowrap;
+    justify-content:flex-start;
+    position:relative;
+    width:114%;
+    left:-7%;
+    padding:0 7%;
+    overflow-y:hidden;
+    overflow-x:auto;
+    -ms-overflow-style:none;
+    -webkit-overflow-scrolling:touch;
+  }
+  .scroll-image img {
+    display:block;
+    flex:0 0 auto;
+    width:80%;
+    margin:0 15px 0 0;
+  }
+  .scroll-image img:last-of-type{
+    margin-right:0;
+  }
+  .scroll-image:after {
+    content:'';
+    display:block;
+    flex:0 0 auto;
+    align-self:stretch;
+    width:7%;
+  }*/
 }
