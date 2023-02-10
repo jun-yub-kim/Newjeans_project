@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  
+<!--font for 8bite-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+<!--apply main.css -->
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
   <script>
     $(document).ready(function(){
       $("#show-popup1").click(function(){
@@ -24,104 +32,110 @@
   </script>
 </head>
 <body>
+<br>
+  <span class="symbol"></span><span class="title"><lofifont class="regular">
+    <font color="white">anonis.kr</font></lofifont></span>
+  <br><br><br>
+
+
+  
+  <button id="show-popup1">
+    <img src="img/Folder_Icon.png" width = "50px" height = "50px" alt="Show Pop-up">
+    <p>folder1</p>
+  </button>
+  
   <div id="popup1" style="display:none">    
     <div style="position: absolute; top: 0; right: 0;">
-      <button id="hide-popup1">X</button>
+      <!--<button id="hide-popup1">X</button>-->
+      
+    </div>
+    
+    <div id="popup-content1_exit">
+      <div style="position: absolute; top: -1px; right: 0;">
+        <button id="hide-popup1"><img src="img/btn-folder-close.png" width = "15px" height = "15px"></button>
+      </div>
     </div>
     <div id="popup-content1">
-      <div class="scroll-image">
-        
-        <div>
-          
+      <div class="scroll-image">        
+        <div>          
         <p class ='line_spacing'>
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+        <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+        <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+        <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
         <br> 
         need to put each of the file name dynamically</p>
         </div>
         <div>
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+        <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+        <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+        <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
         </div>
         put each of the file name dynamically<br><br>
         <div>
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+        <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+        <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+        <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
         </div>
         need to put each of the file name dynamically<br>
         <div>
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+        <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+        <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+        <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
         </div>
         need to put each of the file name dynamically<br>
         <div>
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+          <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+          <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+          <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
         </div>
         need to put each of the file name dynamically<br>
         <div>
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+          <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+          <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
+          <img src="img/Folder_Icon.png" width = "50%" height = "50%" style="max-width:80px; height:auto;">
         </div>
         need to put each of the file name dynamically<br>
       </div>
-
-
-      
-<!--
-<div class="grid-image">
-        
-        <img src="/Folder_Icon.png" width = "50%" height = "50%">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%">
-        <img src="/Folder_Icon.png" width = "90%" height = "50%">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%">
-        <img src="/Folder_Icon.png" width = "50%" height = "50%">
-        <img src="/Folder_Icon.png" width = "50px" height = "50px">
-      </div>-->
     </div>
   </div>
-  <button id="show-popup1">
-    <img src="/Folder_Icon.png" width = "50px" height = "50px" alt="Show Pop-up">
-    <p>folder1</p>
+
+
+
+
+
+
+  <button id="show-popup2">
+    <img src="img/Folder_Icon.png" width = "50px" height = "50px" alt="Show Pop-up">
+    <p>folder2</p>
   </button>
 
   <div id="popup2" style="display:none">
     <div id="popup-content2">
       <p>This is a pop-up!</p>
-      <img src="/Folder_Icon.png" width = "50px" height = "50px">
+      <img src="img/Folder_Icon.png" width = "50px" height = "50px">
       <figcaption>하단 설명 글</figcaption>
-      <img src="/Folder_Icon.png" width = "50px" height = "50px">
+      <img src="img/Folder_Icon.png" width = "50px" height = "50px">
       <p>folder1</p>
       <table>
         <tr>
-          <td><img src="/Folder_Icon.png" width = "50px" height = "50px"><figcaption>folder1</figcaption></td>
-          <td><img src="/Folder_Icon.png" width = "50px" height = "50px"><figcaption>folder2</figcaption></td>
-          <td><img src="/Folder_Icon.png" width = "50px" height = "50px"><figcaption>folder3</figcaption></td>
-          <td><img src="/Folder_Icon.png" width = "50px" height = "50px"><figcaption>folder4</figcaption></td>
+          <td><img src="img/Folder_Icon.png" width = "50px" height = "50px"><figcaption>folder1</figcaption></td>
+          <td><img src="img/Folder_Icon.png" width = "50px" height = "50px"><figcaption>folder2</figcaption></td>
+          <td><img src="img/Folder_Icon.png" width = "50px" height = "50px"><figcaption>folder3</figcaption></td>
+          <td><img src="img/Folder_Icon.png" width = "50px" height = "50px"><figcaption>folder4</figcaption></td>
         <tr>
       </table>
-      <img src="/Folder_Icon.png" width = "50px" height = "50px">
-      <img src="/Folder_Icon.png" width = "50px" height = "50px">
-      <img src="/Folder_Icon.png" width = "50px" height = "50px">
-      <img src="/Folder_Icon.png" width = "50px" height = "50px">
-      <img src="/Folder_Icon.png" width = "50px" height = "50px"><br>
+      <img src="img/Folder_Icon.png" width = "50px" height = "50px">
+      <img src="img/Folder_Icon.png" width = "50px" height = "50px">
+      <img src="img/Folder_Icon.png" width = "50px" height = "50px">
+      <img src="img/Folder_Icon.png" width = "50px" height = "50px">
+      <img src="img/Folder_Icon.png" width = "50px" height = "50px"><br>
       
       <div style="position: absolute; top: 0; right: 0;">
         <button id="hide-popup2">X</button>
       </div>
     </div>
   </div>
-  <button id="show-popup2">
-    <img src="/Folder_Icon.png" width = "50px" height = "50px" alt="Show Pop-up">
-    <p>folder2</p>
-  </button>
+
+
 </body>
 </html>
