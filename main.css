@@ -181,7 +181,7 @@ button img { /*버튼 이미지에 마우스 커서 대면 손으로 바꿔주�
     margin:30px 0;
 }
 .scroll-image img {
-  width:calc(33.333%);
+  width:calc(33.333% - 10%);
     /*width:calc(33.333% - 10px);
     margin:0 15px 15px 0;*/
 }
