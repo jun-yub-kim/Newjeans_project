@@ -118,7 +118,9 @@
 }
 
 body {
-    background-color: #8781bf;
+    background-color: #bfbbe6;
+    
+    /*background-color: #8781bf;*/
 }
   
 button { /*버튼 배경 투명으로 바꿔주는 구문*/
@@ -248,9 +250,31 @@ lofifont{
 	position: relative;
 }
 
+.main_img{
+  width:120px;
+  height: auto;
+  display: flex;
+  justify-content: center center;
+  background-image: url("main_image.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
-b {
-	position: fixed;
-	top: 20px;
-	left: 20px;
+
+.test{
+	background: url("main.gif");
+	
+	background-position: center center;
+  
+  justify-content: center center;
+	background-repeat: no-repeat;
+	height : 500px; 
+  width: 90%;
+  margin-top: 3%;
+
+	/* 외부 여백 옵션 
+	margin: 50px;*/
+
+	/* 외부 여백 옵션 
+	margin: 50px;*/
 }
